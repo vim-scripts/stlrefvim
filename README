@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2353
+
+This plugin aims to provide a reference manual for the C++ standard template library (STL).  Based heavily off of the well-regarded SGI-STL documentation, this script puts the power of this documentation into your vim workflow.  Lookups can easily be done with user-configurable key mappings.
+
+For example, in the expression:
+    std::for_each(start, end, PrintFunc)
+place the cursor over for_each and type <Leader>tr to go to documentation for this function.  Type <Leader>te to go to an example that uses this function.
+
+Many thanks must go to Christian Habermann's for his crefvim plugin (http://www.vim.org/scripts/script.php?script_id=614) that formed the basis of and was the inspiration for this plugin.
